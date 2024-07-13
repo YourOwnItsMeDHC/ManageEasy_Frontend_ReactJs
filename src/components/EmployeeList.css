@@ -1,0 +1,58 @@
+.employee-list-container {
+  max-width: 800px;
+  margin: 20px auto;
+  padding: 20px;
+  background-color: #f8f9fa;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.list-title {
+  font-size: 24px;
+  font-weight: bold;
+  margin-bottom: 15px;
+  color: #333;
+}
+
+.employee-list {
+  list-style: none;
+  padding: 0;
+}
+
+.employee-item {
+  margin-bottom: 15px;
+  padding: 15px;
+  border: 1px solid #ddd;
+  border-radius: 6px;
+  background-color: #fff;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.employee-info {
+  display: flex;
+  flex-direction: column;
+}
+
+.info-row {
+  display: flex;
+  align-items: center;
+  margin-bottom: 8px;
+}
+
+.label {
+  font-weight: bold;
+  margin-right: 8px;
+  color: #666;
+}
+
+.value {
+  flex: 1;
+  color: #444;
+}
+
+@media (max-width: 600px) {
+  .employee-field {
+    flex: 1 1 100%;
+  }
+}
